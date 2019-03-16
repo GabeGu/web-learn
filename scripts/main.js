@@ -1,5 +1,9 @@
 var myHeading = document.querySelector('h1');
 var myButton  = document.querySelector('button');
+var info      = document.createElement('p');
+
+info.textContent = "this is added by js scripts"
+document.body.appendChild(info);
 
 function setUserName() {
     var myName = prompt('please, enter your name.');
