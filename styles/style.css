@@ -22,12 +22,12 @@ h1 {
     text-shadow: 5px 5px 1px black;
 }
 
-p, li {
+p, li , dl{
     font-size: 16px;
     font-family: 'Playfair Display', serif;
     line-height: 2;     /*行间距*/
     letter-spacing: 1px;/*字符间距*/
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 0 10px;
 }
 
